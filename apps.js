@@ -43,16 +43,17 @@ const AppManifest = {
                             response.textContent = args[1] === '-a' ? "Darwin apple 24.5.0 Darwin Kernel Version 24.5.0: root:xnu/RELEASE_X86_64 x86_64" : "Darwin";
                             break;
                         case 'neofetch':
-                            response.innerHTML = `
-                                <span class="text-red-400"> mACOS cATALANA v10.15</span><br>
-                                <span class="text-zinc-400">--------------------</span><br>
-                                <b>OS:</b> macOS Catalina Sim (Vercel Build)<br>
-                                <b>Kernel:</b> xnu-24.5.0<br>
-                                <b>Shell:</b> zsh 5.8<br>
-                                <b>CPU:</b> Intel Core i5-2300 @ 2.80GHz<br>
-                                <b>GPU:</b> NVIDIA GeForce GT 240<br>
-                                <b>Memory:</b> 6.00 GB RAM
-                            `;
+    response.innerHTML = `
+        <span class="text-red-400"> macOS Catalina v10.15.7</span><br>
+        <span class="text-zinc-400">--------------------</span><br>
+        <b>OS:</b> macOS Catalina Sim (Vercel Build)<br>
+        <b>Kernel:</b> xnu-6153.141.2<br>
+        <b>Shell:</b> zsh 5.7.1<br>
+        <b>CPU:</b> Apple M3 Max (16-core)<br>
+        <b>GPU:</b> Apple M3 Max (40-core GPU)<br>
+        <b>Memory:</b> 64 GB Unified Memory
+    `;
+    break;
                             break;
                         case 'clear': out.innerHTML = ''; break;
                         case 'pwd': response.textContent = `/Users/catalana/${currentDir}`; break;
