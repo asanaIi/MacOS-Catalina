@@ -1,1 +1,7 @@
-{"name":"MacOS-Catalina","author":"itsAsanali","language":"javascript","license":"none","encoding":"UTF-8"}
+{
+    "name": "MacOS-Catalina",
+    "author": "asanaIi",
+    "language": "javascript",
+    "license": "none",
+    "encoding": "UTF-8"
+}
